@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes ✦ Barbie's Bazar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a class="navbar-brand" href="index.html">✦ Barbie's Bazar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="index.html#produtos" class="nav-link">Produtos</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section-detalhe">
+    <div class="container">
+      <a href="index.html" class="btn-voltar">← Voltar ao catálogo</a>
+      <h2 class="section-title">Detalhes do produto</h2>
+      <div id="detalhe-produto"></div>
+    </div>
+  </section>
+
+  <section class="section-fotos">
+    <div class="container">
+      <h2 class="section-title">📸 Mais fotos</h2>
+      <div id="detalhe-fotos" class="fotos-grid"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>✦ Barbie's Bazar © 2026 — feito com muito pink ✦</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
