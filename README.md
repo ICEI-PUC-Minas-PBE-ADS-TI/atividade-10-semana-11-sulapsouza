@@ -6,9 +6,9 @@ Imagine que a página principal (home-page) mostre uma visão dos vários itens 
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Descreva brevemente seu projeto:
+- Nome: Sulamita Pinheiro de Souza
+- Matrícula: 927424
+- Descreva brevemente seu projeto: O meu projeto consiste em um Bazar um online dos itens usados pela personagem Barbie durante a sua trajetória profissional. 
 
 ## Prints do trabalho
 
