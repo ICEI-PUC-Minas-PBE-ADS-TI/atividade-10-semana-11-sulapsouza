@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhe do Item</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbie's Bazar ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+
+  <header class="site-header">
+    <img src="images/banner.svg" alt="Barbie's Bazar" class="header-banner" />
+  </header>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a class="navbar-brand" href="index.html">✦ Barbie's Bazar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Início</a></li>
+        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section-destaques">
+    <div class="container">
+      <h2 class="section-title">✦ Destaques</h2>
+      <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carouselTrack"></div>
+        <button class="carousel-btn carousel-btn--prev" id="carouselPrev" aria-label="Anterior">&#8592;</button>
+        <button class="carousel-btn carousel-btn--next" id="carouselNext" aria-label="Próximo">&#8594;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="controls-section" id="produtos">
+    <div class="container controls-container">
+      <div class="control-group">
+        <span class="control-icon">🔍</span>
+        <input id="search" type="text" class="control-input" placeholder="buscar produto..." autocomplete="off" />
+      </div>
+      <div class="control-group">
+        <span class="control-icon">🏷️</span>
+        <select id="category" class="control-select"></select>
+      </div>
+      <button id="btnRender" class="btn-pink">✦ Renderizar</button>
+    </div>
+  </section>
+
+  <section class="section-products">
+    <div class="container">
+      <h2 class="section-title">Todos os produtos</h2>
+      <div id="product-list" class="product-grid"></div>
+    </div>
+  </section>
+
+  <section class="section-sobre" id="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre</h2>
+      <div class="sobre-card">
+        <div class="sobre-avatar">👩‍💻</div>
+        <div class="sobre-text">
+          <h3 class="sobre-nome">Criado por Sulamita Pinheiro ✦</h3>
+          <p>
+            Trabalho Prático 1 — Disciplina de Desenvolvimento Web.<br />
+            Site desenvolvido com HTML, CSS e JavaScript puro.<br />
+            Tema: <strong>Barbie's Bazar</strong> — moda, estilo e muito pink 💗
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>✦ Barbie's Bazar © 2026 — feito com muito pink ✦</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
