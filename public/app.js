@@ -12,9 +12,9 @@ const dados = [
     emEstoque: true,
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Frente do vestido", imagem: "images/vestido.svg" },
-      { id: 2, titulo: "Detalhe do cinto", imagem: "images/vestido.svg" },
-      { id: 3, titulo: "Look completo", imagem: "images/vestido.svg" }
+      { id: 1, titulo: "Frente do vestido", imagem: "images/vestido_frente.jpg" },
+      { id: 2, titulo: "Detalhe do cinto", imagem: "images/cinto_vestido.jpg" },
+      { id: 3, titulo: "Look completo", imagem: "images/vestido_completo.jpg" }
     ]
   },
   {
@@ -30,8 +30,8 @@ const dados = [
     emEstoque: false,
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Vista frontal", imagem: "images/oculos.svg" },
-      { id: 2, titulo: "Detalhe da armação", imagem: "images/oculos.svg" }
+      { id: 1, titulo: "Vista frontal", imagem: "images/oculosf.jpg" },
+      { id: 2, titulo: "Detalhe da armação", imagem: "images/oculosa.jpg" }
     ]
   },
   {
@@ -47,9 +47,9 @@ const dados = [
     emEstoque: true,
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Vista frontal", imagem: "images/calca.svg" },
-      { id: 2, titulo: "Detalhe bolsos cargo", imagem: "images/calca.svg" },
-      { id: 3, titulo: "Vista lateral", imagem: "images/calca.svg" }
+      { id: 1, titulo: "Vista frontal", imagem: "images/visaof.jpg" },
+      { id: 2, titulo: "Detalhe bolsos cargo", imagem: "images/bolsos.jpg" },
+      { id: 3, titulo: "Vista lateral", imagem: "images/lateral.jpg" }
     ]
   },
   {
@@ -65,8 +65,8 @@ const dados = [
     emEstoque: true,
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Frente da camisa", imagem: "images/brasil.svg" },
-      { id: 2, titulo: "Costas e escudo", imagem: "images/brasil.svg" }
+      { id: 1, titulo: "Frente da camisa", imagem: "images/frentec.jpg" },
+      { id: 2, titulo: "Costas e escudo", imagem: "images/tras.jpg" }
     ]
   },
   {
@@ -82,10 +82,9 @@ const dados = [
     emEstoque: true,
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Vista frontal", imagem: "images/bolsa.svg" },
-      { id: 2, titulo: "Interior da bolsa", imagem: "images/bolsa.svg" },
-      { id: 3, titulo: "Detalhe do fecho", imagem: "images/bolsa.svg" },
-      { id: 4, titulo: "Look de gala", imagem: "images/bolsa.svg" }
+      { id: 1, titulo: "Interior da bolsa", imagem: "images/interiorb.jpg" },
+      { id: 2, titulo: "Detalhe do fecho", imagem: "images/fechod.jpg" },
+      { id: 3, titulo: "Look de gala", imagem: "images/lookb.jpg" }
     ]
   },
   {
@@ -101,8 +100,8 @@ const dados = [
     emEstoque: true,
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Vista frontal", imagem: "images/sapato.svg" },
-      { id: 2, titulo: "Detalhe das tiras", imagem: "images/sapato.svg" }
+      { id: 1, titulo: "Vista frontal", imagem: "images/fronts.jpg" },
+      { id: 2, titulo: "Detalhe das tiras", imagem: "images/dtiras.jpg" }
     ]
   },
   {
@@ -118,8 +117,8 @@ const dados = [
     emEstoque: false,
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Vista frontal", imagem: "images/saia.svg" },
-      { id: 2, titulo: "Detalhe desfiado", imagem: "images/saia.svg" }
+      { id: 1, titulo: "Vista lateral", imagem: "images/laterals.jpg" },
+      { id: 2, titulo: "Detalhe desfiado", imagem: "images/desfiados.jpg" }
     ]
   },
   {
@@ -135,8 +134,8 @@ const dados = [
     emEstoque: true,
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Capinha fechada", imagem: "images/capa.svg" },
-      { id: 2, titulo: "Capinha com celular", imagem: "images/capa.svg" }
+      { id: 1, titulo: "Capinha sem celular", imagem: "images/capinhas.jpg" },
+      { id: 2, titulo: "Capinha com celular", imagem: "images/capinhac.jpg" }
     ]
   }
 ];

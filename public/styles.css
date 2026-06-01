@@ -84,7 +84,6 @@ h1, h2, h3, .navbar-brand {
 .site-header {
   width: 100%;
   overflow: hidden;
-  max-height: 280px;
 }
 
 .header-banner {
